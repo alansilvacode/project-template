@@ -1,0 +1,55 @@
+# Arquivos de metadados do git
+.git
+.gitignore
+.gitkeep
+.gitattributes
+
+# Arquivos do Docker
+.dockerignore
+
+# Build dependencies
+node_modules/
+
+# Pasta e Arquivos do typescript
+*.spec.tsx
+*.test.tsx
+*.spec.ts
+*.test.ts
+
+# Environment (contains sensitive data)
+*.env
+.env.example
+
+# arquivos de Lint/Prettier
+.eslintignore
+.eslintrc.js
+.eslintrc
+.eslintcache
+.prettierrc.js
+.prettierignore
+.prettierrc
+
+# Arquivos de logs
+*.log
+logs/
+
+# Arquivos de docs
+doc/
+docs/
+*.md
+LICENSE
+
+# Arquivos de testes
+covarage/
+test/
+covarage/
+jest.config.js
+jest.config.ts
+
+# Arquivos do Next.js
+.next/
+.vercel/
+
+# Arquivos do Python
+venv/
+__pycache__/
