@@ -1,0 +1,16 @@
+{
+  /**
+   * @alansilvacode
+   * Este arquivo é a configuração do workspace para o vscode, assim podemos padronizar as configuração de desenvolvimento
+   */
+  "folders": [
+    {
+      "path": "./",
+      "name": "app"
+    }
+  ],
+  "settings": {
+    // Explorador de Arquivos
+    "explorer.compactFolders": false,
+  }
+}
