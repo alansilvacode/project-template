@@ -1,0 +1,188 @@
+###############################################################################
+# @alansilvacode
+# Arqivo para Adicionar atributos ao repositorio
+###############################################################################
+
+###############################################################################
+# Arquivos de Configuração do Commitlint e Commitizen
+###############################################################################
+commitlint.config.js linguist-documentation
+.commitlintrc.js
+
+###############################################################################
+# Arquivos de Configuração do eslint
+###############################################################################
+.eslintrc.js linguist-documentation
+.eslintignore linguist-documentation
+.eslintrc linguist-documentation
+
+###############################################################################
+# Arquivos de Configuração do Prettier
+###############################################################################
+prettier.config.js linguist-documentation
+.prettierrc linguist-documentation
+.prettierrc.json linguist-documentation
+
+###############################################################################
+# Arquivos de Configuração do Semantic Release
+###############################################################################
+.releaserc.js linguist-documentation
+.releaserc linguist-documentation
+.releaserc.json linguist-documentation
+
+###############################################################################
+# Arquivos de Configuração do Jest
+###############################################################################
+jest.config.js linguist-documentation
+jest.config.ts linguist-documentation
+.jestrc linguist-documentation
+.jestrc.js linguist-documentation
+
+###############################################################################
+# JavaScript Compilado
+###############################################################################
+dist/ linguist-generated
+.next/ linguist-generated
+build/ linguist-generated
+out/ linguist-generated
+
+###############################################################################
+# Arquivos estáticos
+###############################################################################
+*.html linguist-vendored-filenames=true
+*.jinja2 linguist-vendored-filenames=true
+*.jinja linguist-vendored-filenames=true
+*.sass linguist-vendored-filenames=true
+*.css linguist-vendored-filenames=true
+*.edge linguist-vendored-filenames=true
+*.jsx linguist-vendored-filenames=true
+*.map linguist-vendored-filenames=true
+
+###############################################################################
+# Arquivos de texto
+###############################################################################
+* text=auto
+.editorconfig text=auto
+*.http text=auto
+
+###############################################################################
+# Arquivos de Documentação
+# EX: Readme, Contributing, License
+###############################################################################
+*.md linguist-documentation
+*.MD linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation
+LICENSE linguist-documentation
+license linguist-documentation
+Makefile linguist-documentation
+contributing linguist-documentation
+CONTRIBUTING linguist-documentation
+
+###############################################################################
+# Arquivos do Heroku
+###############################################################################
+Procfile    text
+.slugignore text
+
+###############################################################################
+# Arquivos de Documentos
+###############################################################################
+*.doc   diff=astextplain
+*.DOC   diff=astextplain
+*.docx  diff=astextplain
+*.DOCX  diff=astextplain
+*.dot   diff=astextplain
+*.DOT   diff=astextplain
+*.pdf   diff=astextplain
+*.PDF   diff=astextplain
+*.rtf   diff=astextplain
+*.RTF   diff=astextplain
+*.odt   diff=astextplain
+*.ODT   diff=astextplain
+*.xls   diff=astextplain
+*.XLS   diff=astextplain
+*.xlsx  diff=astextplain
+*.XLSX  diff=astextplain
+*.ods   diff=astextplain
+
+###############################################################################
+# Arquivos diversos de Configuração
+###############################################################################
+*.bowerrc      text
+*.cnf          text
+*.conf         text
+*.config       text
+.browserslistrc text
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.gitignore     text
+.htaccess      text
+browserslist   text
+*.npmignore    text
+*.npmrc        text
+
+###############################################################################
+# Arquivos binários de imagens
+###############################################################################
+*.jpeg binary
+*.jpg  binary
+*.gif  binary
+*.svg  text
+*.webp binary
+
+###############################################################################
+# Arquivos binários de Vídeos
+###############################################################################
+*.3gpp binary
+*.3gp  binary
+*.as   binary
+*.asf  binary
+*.asx  binary
+*.fla  binary
+*.flv  binary
+*.m4v  binary
+*.mng  binary
+*.mov  binary
+*.mp4  binary
+*.mpeg binary
+*.mpg  binary
+*.ogv  binary
+*.swc  binary
+*.swf  binary
+*.webm binary
+
+###############################################################################
+# Arquivos binários de Audio
+###############################################################################
+*.kar  binary
+*.m4a  binary
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+*.ra   binary
+
+###############################################################################
+# Arquivos binários de Fontes
+###############################################################################
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+###############################################################################
+# Arquivos binários de Arquivos Compactados
+###############################################################################
+*.7z  binary
+*.gz  binary
+*.jar binary
+*.rar binary
+*.tar binary
+*.zip binary
+
+###############################################################################
+# END OF FILE
+###############################################################################
