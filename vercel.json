@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "NODE_ENTRY_POINT",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "(.*)",
+        "dest": "NODE_ENTRY_POINT"
+      }
+    ]
+}
